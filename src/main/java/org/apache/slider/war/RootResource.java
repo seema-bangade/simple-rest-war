@@ -25,7 +25,7 @@ public class RootResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String getIt1() {
+    public String getIt5() {
         return "Success1";
     }
 }
