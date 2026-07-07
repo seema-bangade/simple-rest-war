@@ -22,4 +22,10 @@ public class RootResource {
     public String getIt() {
         return "Success";
     }
+
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String getIt1() {
+        return "Success1";
+    }
 }
