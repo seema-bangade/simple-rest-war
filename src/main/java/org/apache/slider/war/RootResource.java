@@ -8,6 +8,10 @@ import javax.ws.rs.core.MediaType;
 /**
  * Root resource
  */
+
+/*
+modfified
+*/
 @Path("/")
 public class RootResource {
 
